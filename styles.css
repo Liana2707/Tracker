@@ -1,0 +1,39 @@
+.habbits {
+    text-align: center;
+    display: block;
+}
+
+.habbit-window {
+    text-align: left;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    width: 330px;
+    margin: 10pt;
+}
+
+
+.habbit-window button {
+    border-radius: 50%;
+    margin-right: 2pt;
+    margin-bottom: 2pt;
+}
+
+
+.habbit-window>.buttons>.button-line {
+    margin-left: 2pt;
+}
+
+.new-track {
+    display: block;
+    text-align: center;
+}
+
+.new-track button {
+    background-color: rgb(251, 255, 251);
+    color: black;
+    width: 295px;
+}
+
