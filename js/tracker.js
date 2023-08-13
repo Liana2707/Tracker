@@ -1,12 +1,4 @@
 
-
-const buttons = document.getElementsByClassName("btn btn-success")
-
-for (btn of buttons) {
-    btn.addEventListener('click', changeClicker)
-};
-
-
 function changeClicker(event) {
     const colors = ['purple','#198754'] 
     const inner = ['&#10004;','&#10008;'] //галочка, крестик
@@ -38,3 +30,4 @@ function addTracker(){
     }
     tracker.after(copy)
 }
+
